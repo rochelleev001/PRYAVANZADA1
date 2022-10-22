@@ -93,7 +93,9 @@ namespace PRYAVANZADA01 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(284, 261);
+			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(128)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(128)));
+			this->ClientSize = System::Drawing::Size(620, 401);
 			this->Controls->Add(this->listBox1);
 			this->Controls->Add(this->btnCargar);
 			this->Name = L"Nivel_facil";

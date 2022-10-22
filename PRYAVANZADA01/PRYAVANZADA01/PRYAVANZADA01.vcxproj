@@ -122,11 +122,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Colas.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Nivel_facil.cpp" />
+    <ClCompile Include="Pilas.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Colas.h" />
     <ClInclude Include="menu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -136,6 +139,7 @@
     <ClInclude Include="Nivel_facil.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Pilas.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="menu.resx">
@@ -143,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel_facil.resx">
+      <DependentUpon>Nivel_facil.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

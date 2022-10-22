@@ -24,6 +24,12 @@
     <ClCompile Include="Nivel_facil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pilas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -33,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Nivel_facil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pilas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
