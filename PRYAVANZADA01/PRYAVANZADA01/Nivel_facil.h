@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Colas.h"
 namespace PRYAVANZADA01 {
 
 	using namespace System;
@@ -112,8 +112,9 @@ namespace PRYAVANZADA01 {
 
 				for (int i = 0; i < sizeof(linea_array); i++)
 				{
+					Colas* miCola = new Colas();
 					linea_array[i];
-					//miPila->agregarPila(Convert::ToChar(linea_array[i]));
+					//miCola->insertarCola(Convert::ToChar(linea_array[i]));
 
 					linea = inputStream->ReadLine();
 				}
