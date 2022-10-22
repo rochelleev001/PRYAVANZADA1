@@ -124,12 +124,16 @@
   <ItemGroup>
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Nivel_facil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nivel_facil.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
