@@ -112,7 +112,6 @@ namespace PRYAVANZADA01 {
 
 				for (int i = 0; i < sizeof(linea_array); i++)
 				{
-					//Pila* miPila = new Pila();
 					linea_array[i];
 					//miPila->agregarPila(Convert::ToChar(linea_array[i]));
 
